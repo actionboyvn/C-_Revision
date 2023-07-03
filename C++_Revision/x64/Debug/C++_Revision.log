@@ -1,0 +1,25 @@
+﻿  CNodeStatic.cpp
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.cpp(22,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(4321,16): error C2280: 'CNodeStatic &CNodeStatic::operator =(const CNodeStatic &)': attempting to reference a deleted function
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.h(26): message : compiler has generated 'CNodeStatic::operator =' here
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.h(26,1): message : 'CNodeStatic &CNodeStatic::operator =(const CNodeStatic &)': function was implicitly deleted because 'CNodeStatic' has a data member 'CNodeStatic::const_i_default_val' of const-qualified non-class type
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.h(21): message : see declaration of 'CNodeStatic::const_i_default_val'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1406): message : see reference to function template instantiation '_OutIt *std::_Move_unchecked<CNodeStatic*,CNodeStatic*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=CNodeStatic *,
+              _InIt=CNodeStatic *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1394): message : while compiling class template member function 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>) noexcept(false)'
+          with
+          [
+              _Ty=CNodeStatic
+          ]
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.cpp(45): message : see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CNodeStatic
+          ]
+C:\Users\Hien\source\repos\C++_Revision\C++_Revision\CNodeStatic.h(24): message : see reference to class template instantiation 'std::vector<CNodeStatic,std::allocator<CNodeStatic>>' being compiled
+  Source.cpp
+  Generating Code...
